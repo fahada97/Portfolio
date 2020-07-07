@@ -62,7 +62,7 @@ body{
 }
 
 .logo{
-    width: 10%;
+    width: 15%;
     padding-bottom: 1rem;
 }
 
@@ -156,5 +156,8 @@ footer a:hover{
     }
     .navbar-content{
         margin-left: 0;
+    }
+    .logo{
+        width: 50%;
     }
   }
