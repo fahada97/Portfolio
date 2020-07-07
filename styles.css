@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');   
+
+body{
+    background-color: #343a40;
+    font-family: 'Anonymous Pro', monospace;
+    color: whitesmoke;
+}
+
+.container{
+    border-bottom: 2px solid white;
+    min-height: 100%;
+    padding-top: 4rem;
+}
+
+.main{
+    text-align: center;
+}
+
+.name{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .3rem;
+    margin-left: 6rem;
+}
+
+.nav-item:hover{
+    font-weight: bold;
+}
+.navbar-content{
+    margin-left: 34rem;
+}
+
+.profile-pic{
+    border-radius: 100px;
+    border: 4px solid white;
+    margin: 8rem 0 1rem;
+}
+
+.profile-name{
+    font-family: 'Permanent Marker', cursive;
+    color: whitesmoke;
+    letter-spacing: .3rem;
+}
+
+.profile-para{
+    color: whitesmoke;
+    font-size: 1.2rem;
+    padding-bottom: 6rem;
+}
+
+.heading{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .5rem;
+    padding-bottom: 1rem; 
+}
+
+.about-content{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.logo{
+    width: 10%;
+    padding-bottom: 1rem;
+}
+
+.education{
+    text-align: center;
+}
+
+.college-name{
+    color: whitesmoke;
+}
+
+.college-name:hover{
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.skill-logos{
+    text-align: center;
+    width: 80%;
+    margin: 1rem auto 3rem;
+}
+.skill-logo{
+    width: 17%;
+    padding: .5rem;
+}
+.skill-logo.java{
+    width: 14%;
+}
+
+.skill-logo.c{
+    width: 28%;
+}
+
+.card{
+    color: grey;
+    width: 17rem;
+}
+
+.card:hover{
+    box-shadow: 0px -5px 10px 0px white;
+    margin-top: -10px;
+}
+
+.button{
+    border-radius: 500px;
+}
+
+.code{
+    background-color: lightgrey;
+}
+
+.project-img{
+    max-height: 100px;;
+}
+
+footer{
+    text-align: center;
+    min-height: 50px;
+    padding-top: 10px;
+}
+
+footer a{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 0 2rem;
+}
+footer a:hover{
+    color: darkgrey;
+    text-decoration: none;
+}
+.social{
+    width: 1.5rem;
+    color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+    .cards{
+        /* margin-left: 0 auto; */
+    }
+    .card{
+        margin: 1rem auto;
+    }
+    footer a{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .social{
+        margin: 0 auto;
+    }
+    .navbar-content{
+        margin-left: 0;
+    }
+  }
